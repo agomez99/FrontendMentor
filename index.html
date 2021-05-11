@@ -17,7 +17,9 @@
     body {
       background-color: black;
     }
-
+    div.col{
+      padding: 0px;
+    }
     .attribution {
       font-size: 11px;
       text-align: center;
@@ -37,6 +39,9 @@
     }
 
     .img {
+      object-fit: fill;
+      width: 100%;
+      height: 100%;
       border-radius: 0 10px 10px 0;
       filter: sepia(91%) brightness(60%) hue-rotate(249deg) saturate(445%);
       -webkit-filter: sepia(91%) brightness(60%) hue-rotate(249deg) saturate(445%);
@@ -56,26 +61,28 @@
       color: white;
       margin-bottom: 25px;
       padding-top: 11%;
-      font-size: 40px;
+      font-size: 35px;
     }
 
     .row {
-      background-color: rgb(58, 6, 83)
+      background-color: #1C1938;
     }
     .info{
-      margin:10%;
+      margin:10% 20% 0% 15%;
     }
     .facts-div{
       margin-top:60px;
     }
     .facts{
       display:flex;
-    }
+      margin-left: -10%;
 
+    }
+ 
     li {
       list-style: none;
       color: white;
-      padding-right:30px;
+      padding-right:55px;
       font-size: 25px;;
       font-weight: bold;
     }
@@ -92,7 +99,7 @@
     <div class="row">
       <div class="col">
         <div class="info">
-          <h1> Get <span style="color:#7a3d92">insights</span> that help your business grow.</h1>
+          <h1> Get <span style="color:#A168C6">insights</span> that help your business grow.</h1>
 
           <p>Discover the benefits of data analytics and make</p>
           <p>better decisions regarding revenue, customer</p>
@@ -119,7 +126,7 @@
       </div>
 
       <div class="col">
-        <div>
+        <div class="img-div">
           <img class="img" src="./images/image-header-desktop.jpg" />
 
         </div>
