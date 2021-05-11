@@ -13,9 +13,11 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    html, body{
+    html,
+    body {
       background-color: black;
     }
+
     .attribution {
       font-size: 11px;
       text-align: center;
@@ -24,40 +26,63 @@
     .attribution a {
       color: hsl(228, 45%, 44%);
     }
-    .container{
-      border-radius:25px;
-      margin-top:10%;
+
+    .container {
+      border-radius: 25px;
+      margin-top: 10%;
     }
-    .text{
-      color:rgb(167, 94, 223);
+
+    .text {
+      color: rgb(167, 94, 223);
     }
-    
+
     .img {
-      border-radius: 0 20px 20px 0;
+      border-radius: 0 10px 10px 0;
       filter: sepia(91%) brightness(60%) hue-rotate(249deg) saturate(445%);
--webkit-filter: sepia(91%) brightness(60%) hue-rotate(249deg) saturate(445%);
--moz-filter: sepia(91%) brightness(60%) hue-rotate(249deg) saturate(445%);
+      -webkit-filter: sepia(91%) brightness(60%) hue-rotate(249deg) saturate(445%);
+      -moz-filter: sepia(91%) brightness(60%) hue-rotate(249deg) saturate(445%);
     }
 
     .row {
-      border-radius: 20px;
-    }
-    p{
-      line-height : 10px;
-      color:white;
+      border-radius: 10px;
     }
 
-    h1{
-      color:white;
-      margin-bottom:25px;
-      padding-top:11%;
+    p {
+      line-height: 10px;
+      color: white;
     }
-    .row{
-      background-color:rgb(58, 6, 83)
+
+    h1 {
+      color: white;
+      margin-bottom: 25px;
+      padding-top: 11%;
+      font-size: 40px;
     }
-    li{
+
+    .row {
+      background-color: rgb(58, 6, 83)
+    }
+    .info{
+      margin:10%;
+    }
+    .facts-div{
+      margin-top:60px;
+    }
+    .facts{
+      display:flex;
+    }
+
+    li {
       list-style: none;
-      color:white;
+      color: white;
+      padding-right:30px;
+      font-size: 25px;;
+      font-weight: bold;
+    }
+
+    .listfacts{
+      font-size: 15px;
+      font-weight: normal;
     }
   </style>
 </head>
@@ -65,41 +90,40 @@
 <body>
   <div class="container">
     <div class="row">
-        <div class="col">
-            <div class="info">
-             <h1> Get insights that help your business grow.</h1>
+      <div class="col">
+        <div class="info">
+          <h1> Get <span style="color:#7a3d92">insights</span> that help your business grow.</h1>
 
-              <p>Discover the benefits of data analytics and make</p>
-              <p>better decisions regarding revenue, customer</p> 
-               <p>experience, and overall efficiency.</p>
+          <p>Discover the benefits of data analytics and make</p>
+          <p>better decisions regarding revenue, customer</p>
+          <p>experience, and overall efficiency.</p>
 
+          <div class="facts-div">
+            <ul class="facts">
+              <li>
+                10k+ <br><p class="listfacts">companies</p>
 
-               <div>
-                <ul>
-                  <li>
-                    10k+ companies
+              </li>
+              <li>
+                314 <br><p class="listfacts">templates</p>
 
-                  </li>
-                  <li>
-                    314 templates
+              </li>
+              <li>
+                12m+ <br><p class="listfacts">queries</p>
 
-                  </li>
-                  <li>
-                    12m+ queries
-
-                  </li>
-                </ul>
-               </div>
-
+              </li>
+            </ul>
           </div>
-        </div>
 
-        <div class="col">
-          <div >
-            <img class="img" src="./images/image-header-desktop.jpg" />
-  
-          </div>
         </div>
+      </div>
+
+      <div class="col">
+        <div>
+          <img class="img" src="./images/image-header-desktop.jpg" />
+
+        </div>
+      </div>
     </div>
 
     <div class="attribution">
