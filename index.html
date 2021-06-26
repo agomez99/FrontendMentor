@@ -1,142 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <title>Frontend Mentor | Stats preview card component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter" rel="stylesheet">    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | Stats preview card component</title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    html,
-    body {
-      background-color: black;
-    }
-    div.col{
-      padding: 0px;
-    }
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-
-    .container {
-      border-radius: 25px;
-      margin-top: 10%;
-    }
-
-    .text {
-      color: rgb(167, 94, 223);
-    }
-
-    .img {
-      object-fit: fill;
-      width: 100%;
-      height: 100%;
-      border-radius: 0 10px 10px 0;
-      filter: sepia(91%) brightness(60%) hue-rotate(249deg) saturate(445%);
-      -webkit-filter: sepia(91%) brightness(60%) hue-rotate(249deg) saturate(445%);
-      -moz-filter: sepia(91%) brightness(60%) hue-rotate(249deg) saturate(445%);
-    }
-
-    .row {
-      border-radius: 10px;
-    }
-
-    p {
-      line-height: 10px;
-      color: white;
-    }
-
-    h1 {
-      color: white;
-      margin-bottom: 25px;
-      padding-top: 11%;
-      font-size: 35px;
-    }
-
-    .row {
-      background-color: #1C1938;
-    }
-    .info{
-      margin:10% 20% 0% 15%;
-    }
-    .facts-div{
-      margin-top:60px;
-    }
-    .facts{
-      display:flex;
-      margin-left: -10%;
-
-    }
- 
-    li {
-      list-style: none;
-      color: white;
-      padding-right:55px;
-      font-size: 25px;;
-      font-weight: bold;
-    }
-
-    .listfacts{
-      font-size: 15px;
-      font-weight: normal;
-    }
-  </style>
-</head>
-
-<body>
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <div class="info">
-          <h1> Get <span style="color:#A168C6">insights</span> that help your business grow.</h1>
-
-          <p>Discover the benefits of data analytics and make</p>
-          <p>better decisions regarding revenue, customer</p>
-          <p>experience, and overall efficiency.</p>
-
-          <div class="facts-div">
-            <ul class="facts">
-              <li>
-                10k+ <br><p class="listfacts">companies</p>
-
-              </li>
-              <li>
-                314 <br><p class="listfacts">templates</p>
-
-              </li>
-              <li>
-                12m+ <br><p class="listfacts">queries</p>
-
-              </li>
-            </ul>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6" id="picdiv">
+          <img class="img" src="./images/image-header-desktop.jpg" alt="Frontend Mentor Image" />
+        </div>
+        <div class="col-sm-6" id="infodiv">
+          <div class="info">
+            <h1>
+              Get <span style="color: #a168c6">insights</span> that help your
+              business grow.
+            </h1>
+            <p>
+              Discover the benefits of data analytics and make better decisions
+              regarding revenue, customer experience, and overall efficiency.
+            </p>
+            <div class="facts-div">
+              <ul class="facts">
+                <li>
+                  10k+ <br />
+                  <p class="listfacts">companies</p>
+                </li>
+                <li>
+                  314 <br />
+                  <p class="listfacts">templates</p>
+                </li>
+                <li>
+                  12M+ <br />
+                  <p class="listfacts">queries</p>
+                </li>
+              </ul>
+            </div>
           </div>
-
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="img-div">
-          <img class="img" src="./images/image-header-desktop.jpg" />
-
         </div>
       </div>
     </div>
-
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Austine Gomez</a>.
-    </div>
-</body>
-
+  </body>
 </html>
