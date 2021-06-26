@@ -31,8 +31,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/agomez99/FrontendMentor](https://github.com/agomez99/FrontendMentor)
+- Live Site URL: [https://frontend-mentor-lemon.vercel.app/](https://frontend-mentor-lemon.vercel.app/)
 
 ## My process
 
