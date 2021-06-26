@@ -17,7 +17,7 @@ body {
   padding-bottom: 1px;
   width: 100%;
   height: 100%;
-  color:rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
   border-radius: 0 10px 10px 0;
   filter: sepia(91%) brightness(60%) hue-rotate(249deg) saturate(445%);
   -webkit-filter: sepia(91%) brightness(60%) hue-rotate(249deg) saturate(445%);
@@ -67,7 +67,7 @@ li {
 #picdiv {
   height: 100%;
   float: right;
-  color:"white";
+  color: "white";
   background-color: #1c1938;
   padding-right: 0%;
   border-radius: 0 10px 10px 0;
@@ -79,11 +79,16 @@ li {
   border-radius: 10px 0px 0px 10px;
 }
 @media only screen and (max-width: 600px) {
+
   h1 {
     color: white;
     margin-bottom: 25px;
     font-size: 30px;
     padding-top: 0%;
+  }
+  .container{
+    margin-top: 5%;
+
   }
   .info {
     text-align: center;
@@ -94,7 +99,7 @@ li {
     margin-left: 0%;
   }
   .facts-div {
-    margin-top: 60px;
+    margin-top: 15px;
   }
 
   .img {
@@ -119,7 +124,7 @@ li {
   #infodiv {
     border-radius: 0px 0px 10px 10px;
     margin-bottom: 20px;
-    padding-top: 30px;
+    padding-top: 20px;
   }
   li {
     list-style: none;
